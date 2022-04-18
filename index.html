@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <h1>Calculator</h1>
+
+        <div id="box">
+
+            <!-- <input id="input-el"> -->
+            <div id="input-el"></div>
+            <br/>
+
+            <table>
+                <tr>
+                    <button id="7" onclick="assignNum(this.id)">7</button>
+                    <button id="8" onclick="assignNum(this.id)">8</button>
+                    <button id="9" onclick="assignNum(this.id)">9</button>
+                    <button onclick="clearDisplay()">C</button>
+                </tr>
+                <br/>
+                <tr>
+                    <button id="4" onclick="assignNum(this.id)">4</button>
+                    <button id="5" onclick="assignNum(this.id)">5</button>
+                    <button id="6" onclick="assignNum(this.id)">6</button>
+                    <button onclick="answer()">=</button>
+                </tr>
+                <br/>
+                <tr>
+                    <button id="1" onclick="assignNum(this.id)">1</button>
+                    <button id="2" onclick="assignNum(this.id)">2</button>
+                    <button id="3" onclick="assignNum(this.id)">3</button>
+                    <button onclick="multiply()">*</button>
+                </tr>
+                <br/>
+                <tr>
+                    <button onclick="add()">+</button>
+                    <button id="0" onclick="assignNum(this.id)">0</button>
+                    <button onclick="sub()">-</button>
+                    <button onclick="divide()">/</button>
+                </tr>
+            </table>
+
+        </div>
+
+    </body>
+
+    <script src="index.js"></script>
+
+</html>
